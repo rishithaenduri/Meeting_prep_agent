@@ -1,61 +1,29 @@
-# 🤖 Meeting Prep Agent
+# Welcome to your Lovable project
 
-An AI-powered meeting assistant that remembers your previous meetings, conversations, decisions, commitments, and follow-up tasks.
+This project was built with [Lovable](https://lovable.dev).
 
-Instead of spending time reading old meeting notes, the Meeting Prep Agent retrieves relevant past information and provides a concise briefing before your next meeting.
+## Build with Lovable
 
-## 🎯 Purpose
+Open your project in the [Lovable editor](https://lovable.dev) and keep building.
 
-The goal is to help users prepare for meetings faster by giving them the right context at the right time.
+- **Ship faster**: describe what you want to build and Lovable handles the code.
+- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
+- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
 
-The agent uses **long-term memory** to understand what happened in previous meetings and uses that information to prepare for future conversations.
+## Development
 
-## ✨ Key Features
+Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
-- 🧠 **Long-Term Meeting Memory** – Remembers previous meetings and conversations
-- 📋 **Automatic Note Extraction** – Extracts decisions, concerns, promises, and action items
-- 🔎 **Meeting History Search** – Quickly find information from previous meetings
-- 🤖 **AI Meeting Briefing** – Generates personalized pre-meeting summaries
-- ✅ **Action Item Tracking** – Tracks pending tasks and commitments
-- 💬 **Chat with Meeting Memory** – Ask questions about previous meetings
-- 🔔 **Follow-Up Reminders** – Identifies overdue commitments
-- 👤 **Contact History** – Maintains a complete interaction history for each contact
+```sh
+git clone <this-repository-url>
+cd <repository-name>
+npm i
+npm run dev
+```
 
-## 🔄 How It Works
+## Built with
 
-1. Add a contact or meeting
-2. Upload or enter meeting notes
-3. AI extracts important information
-4. Relevant information is stored in memory
-5. Before the next meeting, the agent retrieves previous context
-6. AI generates a personalized meeting briefing
-7. Follow-up actions and commitments are tracked
-
-## 💡 Example
-
-Before a meeting, you can ask:
-
-> "Prepare me for my meeting with Rahul."
-
-The agent can provide:
-
-- Previous discussions
-- Customer concerns
-- Decisions made
-- Promises and commitments
-- Pending action items
-- Important follow-ups
-- Suggested talking points
-
-## 🛠️ Technologies
-
-- Frontend: [Add your frontend technology]
-- Backend: [Add your backend technology]
-- AI/LLM: [Add your AI model]
-- Database: [Add your database]
-- Vector Database: [Add if used]
-- Authentication: [Add if used]
-
-## 🚀 Vision
-
-The Meeting Prep Agent transforms meeting history into useful long-term memory, helping users spend less time searching through notes and more time having productive conversations.
+- TanStack Start
+- TypeScript
+- React
+- Tailwind CSS
