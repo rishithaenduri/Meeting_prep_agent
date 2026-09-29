@@ -7,7 +7,6 @@ Meeting Prep Agent is an AI-powered web application that helps users prepare for
 Instead of manually collecting information before a meeting, the agent organizes the important details and provides useful preparation material in one place.
 
 The goal of the project is to make meeting preparation faster, easier, and more organized.
-
 ---
 
 ## 🎯 Objectives
