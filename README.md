@@ -1,29 +1,85 @@
-# Welcome to your Lovable project
+# Meeting Prep Agent
 
-This project was built with [Lovable](https://lovable.dev).
+## 📌 Overview
 
-## Build with Lovable
+Meeting Prep Agent is an AI-powered web application that helps users prepare for meetings quickly and effectively.
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Instead of manually collecting information before a meeting, the agent organizes the important details and provides useful preparation material in one place.
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+The goal of the project is to make meeting preparation faster, easier, and more organized.
 
-## Development
+---
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## 🎯 Objectives
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+- Reduce the time required to prepare for meetings.
+- Collect and organize important meeting information.
+- Provide AI-assisted meeting preparation.
+- Help users understand the meeting context before joining.
+- Provide useful preparation points and talking points.
+- Create a simple and user-friendly interface.
 
-## Built with
+---
 
-- TanStack Start
-- TypeScript
+## ✨ Features
+
+- **Meeting Preparation**  
+  Helps users prepare important information before a meeting.
+
+- **AI Assistance**  
+  Uses AI-based processing to generate useful meeting preparation content.
+
+- **Meeting Context**  
+  Organizes relevant information so users can understand the purpose of the meeting.
+
+- **Preparation Suggestions**  
+  Provides points that can help users prepare for discussions.
+
+- **User-Friendly Interface**  
+  Simple web interface designed for easy interaction.
+
+- **Fast Processing**  
+  Provides meeting preparation information without requiring users to manually organize everything.
+
+---
+
+## 🛠️ Technologies Used
+
 - React
-- Tailwind CSS
+- TypeScript
+- Vite
+- JavaScript
+- HTML
+- CSS
+- Node.js
+- npm
+
+---
+
+## 📂 Project Structure
+
+```text
+Meeting_Prep_Agent/
+│
+├── node_modules/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   └── ...
+│
+├── .gitignore
+├── .prettierignore
+├── .prettierrc
+├── AGENTS.md
+├── bun.lock
+├── bunfig.toml
+├── components.json
+├── eslint.config.js
+├── package.json
+├── package-lock.json
+├── README.md
+├── roadmap.md
+├── tsconfig.json
+└── vite.config.ts
